@@ -1,0 +1,13 @@
+* Unidad 0. Introducción.
+  - Jerarquías de directorios.
+  - Editar archivos de texto.
+  - Terminal: mkdir, cd, pwd, ls, cal, date, top.
+* Bloque 1. Programación.
+** Unidad 1. Programación estructurada.
+** Unidad 2. Programación orientada a objectos.
+** Unidad 3. Bases de datos.
+* Bloque 2. Publicación y difusión de contenidos.
+** Unidad 4. Programación web.
+** Unidad 5. Blogs.
+* Bloque 3. Seguridad.
+** Unidad 6. Seguridad.
