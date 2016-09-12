@@ -12,4 +12,5 @@
 ** Práctica 2
    Está en la carpeta 02 dentro de prácticas.
 * Utilizar el terminal
-  Disponemos de un material que está dentro de la carpeta material.
+  Disponemos de un material que está dentro de la carpeta material. Lo imprimo y
+  se lo doy a todo el alumnado.
