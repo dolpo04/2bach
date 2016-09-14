@@ -10,7 +10,11 @@
 ** Práctica 1
    Está en la carpeta 01 dentro de practicas.
 ** Práctica 2
-   Está en la carpeta 02 dentro de prácticas.
+   Está en la carpeta 02 dentro de practicas.
 * Utilizar el terminal
   Disponemos de un material que está dentro de la carpeta material. Lo imprimo y
   se lo doy a todo el alumnado.
+** Práctica 1
+   Está en la carepta 03 dentro de practicas.
+   Esta práctica no es entregable, es simplemente un guión para la clase. Al 
+   final tendrán que entregar un fichero comprimido.

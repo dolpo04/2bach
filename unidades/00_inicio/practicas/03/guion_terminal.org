@@ -1,0 +1,51 @@
+* Primera parte: Actividad guiada
+** Notas
+   Para esta primera parte creo un usuario con permisos de administración:
+   - usuario: 2bach.
+   - contraseña: layad2bslm
+
+   Tengo que instalar emacs-nox para usarlo.
+   
+   Además, crearé una carpeta dentro de /tmp llamada 2bach donde suele pueden
+   entrar usuarios administradores (chmod 700).
+** Pasos
+   1)  Cambiamos de usuario desde la terminal: *su - 2bach* o nos logeamos un un
+       terminal distinto (Ctrl+Alt+F1)
+   2)  *whoami*
+   3)  Entramos en Documentos (*cd*)
+   4)  Creamos una carpeta llamada informatica (*mkdir*)
+   5)  Entramos en la carpeta informatica (*cd*)
+   6)  Vamos a crear la carpeta: tecnologias de la informacion (*mkdir*)
+   7)  Ahora hacemos un (*ls*) para ver que se han creado en realidad 4 carpetas
+       (*mkdir*)
+   10) Ahora creamos la carpeta: "tecnologias de la informacion" (*mkdir*)
+   11) Hacemos ls para ver que hay una carpeta llamada de esa manera completa
+       (*ls*)
+   12) Eliminamos las carpetas: tecnologias, de, la e informacion. Si lo intentan
+       con *rm* verán que da error porque son carpetas y hay que usar *rm -r*
+   13) Creamos las carpetas: uno, dos y tres (*mkdir*)
+   14) Ahora tenemos 4 carpetas. ¿Cómo se pueden borrar todas? (*rm -r **)
+   15) Creamos un fichero de texto desde el terminal con *emacs*: emacs so.txt
+   16) Escribimos en el fichero el nombre de todos los sistemas operativos que 
+       conozcas, para ordenadores y smartphone
+   17) Usamos el comando *more* y el comando *cat* para ver el contenido del
+       fichero
+   18) Crear una carpeta llamada copias y copiar el fichero ahí dentro *cp* con el
+       mismo nombre
+   19) Copia el fichero so.txt dentro de copias con el nombre copiaso.txt
+   20) Mueve la carpeta copias a /tmp/2bach (*mv*). Dará error, ¿por qué? 
+       Intentamos entrar a esa carpeta. Dará error, ¿por qué?
+   21) Nos hacemos usuario administrador *sudo su* e intentamos entrar y mover la
+       carpeta en cuestión
+* Segunda parte: Instalación de Atom en Lliurex 15.05
+** Pasos
+   - Actualizamos repositorios (*apt-get update*)
+   - Instalamos git
+   - Instalamos gvfs-bin
+   - Descargamos atom desde atom.io
+   - Instalamos atom con *dpkg*
+* Tercera parte: Práctica
+** Notas
+   Para esta parte se tiene un enunciado que el alumnado deberá seguir.
+   ESTA PRÁCTICA LA TIENEN QUE HACER DESDE LA TERMINAL, SIN ARRANCAR LA GUI.
+   Al final comprimirán una estructura de directorios y me la enviarán.
