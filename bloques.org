@@ -3,7 +3,7 @@
   - Editar archivos de texto.
   - Terminal: mkdir, cd, pwd, ls, cal, date, top.
 * Bloque 1. Programación.
-** Unidad 1. Programación estructurada.
+** Unidad 1. Introducción a la programación.
 ** Unidad 2. Programación orientada a objectos.
 ** Unidad 3. Bases de datos.
 * Bloque 2. Publicación y difusión de contenidos.
