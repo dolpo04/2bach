@@ -1,0 +1,3 @@
+* Hola mundo
+  El típico programa hola mundo que compilamos y ejecutamos.
+* 
