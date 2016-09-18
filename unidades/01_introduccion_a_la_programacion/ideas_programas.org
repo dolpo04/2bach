@@ -1,3 +1,54 @@
-* Hola mundo
+* Hola mundo (main.cpp)
   El típico programa hola mundo que compilamos y ejecutamos.
-* 
+** Qué aprendemos
+   - Estructura de un programa.
+   - Imprimir mensajes en pantalla.
+   - Compilar.
+   - Ejecutar.
+** Qué explicamos
+   - Qué es una sentencia.
+   - Qué es un bloque.
+   - Qué es un comentario.
+   - Indentar el código fuente.
+   - Licencia y autor/es/as del programa.
+   - Cómo funciona el cout.
+   - Cómo compilar y corregir errores (cometer algún error para enseñar a 
+     corregir).
+* Suma de dos números (suma.cpp)
+  El objetivo es hacer un programa que pida dos números y los sume.
+  Antes creamos tres variables, les damos valores y los sumamos. Veremos que es
+  tedioso y un sin sentido tener que modificar el valor de las variables, 
+  compilar y volver a ejecutar.
+** Qué aprendemos
+   - Crear variables.
+   - Asignar valores a las variables.
+   - Pedir números por pantalla y asignar estos valores a las variables.
+   - Sumar.
+** Qué explicamos
+   - Los operadores matemáticos en C++: +, -, *, /, %
+   - Los operadores unarios: ++, --
+   - Hacemos un primer programa donde no se piden los números sinó que se 
+     asignan en el código fuente (veremos inconveniente de modificar, 
+     compilar, etc).
+   - Explicamos cin y mejoramos el sumador.
+* Pide el lado de un cuadrado y devuelve área y el perímetro (cuadrado.cpp)
+  Aquí pedirán el lado del cuadrado y muestran el área y el perímetro.
+** Qué aprendemos
+   Nada nuevo con respecto al programa anterior. Solo afianzar los conceptos.
+** Qué explicamos
+   Nada nuevo.
+* Pide segundos y devuelve horas, minutos y segundos (reloj.cpp)
+  Un programa que pida un número de segundos y devuelva las horas, los minutos 
+  y los segundos.
+  h = segundos / 3600;
+  s = segundos % 3600;
+  m = s / 60;
+  s = s % 60; 
+
+  Podemos empezar por devolver el número de horas solamente. Luego horas y 
+  minutos que hay en esa cantidad de segundos. Y, por último, los segundos.
+** Qué aprendemos
+   - A utilizar el operador %.
+** Qué explicamos
+
+
