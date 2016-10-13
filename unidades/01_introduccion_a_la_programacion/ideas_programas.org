@@ -1,4 +1,4 @@
-* Hola mundo (main.cpp)
+* DONE Hola mundo (main.cpp)
   El típico programa hola mundo que compilamos y ejecutamos.
 ** Qué aprendemos
    - Estructura de un programa.
@@ -14,30 +14,35 @@
    - Cómo funciona el cout.
    - Cómo compilar y corregir errores (cometer algún error para enseñar a 
      corregir).
-* Suma de dos números (suma.cpp)
+* DONE Suma de dos números (suma.cpp)
   El objetivo es hacer un programa que pida dos números y los sume.
   Antes creamos tres variables, les damos valores y los sumamos. Veremos que es
   tedioso y un sin sentido tener que modificar el valor de las variables, 
   compilar y volver a ejecutar.
 ** Qué aprendemos
+   - Concepto de variable.
+   - Tipos básicos de variables en C++: char, short, int, float, double, string.
+   - Los operadores matemáticos en C++: +, -, *, /, %.
+   - Los operadores unarios: ++, --.
    - Crear variables.
    - Asignar valores a las variables.
    - Pedir números por pantalla y asignar estos valores a las variables.
    - Sumar.
 ** Qué explicamos
-   - Los operadores matemáticos en C++: +, -, *, /, %
+   - Los operadores matemáticos en C++: +, -, *, /, %.
    - Los operadores unarios: ++, --
    - Hacemos un primer programa donde no se piden los números sinó que se 
      asignan en el código fuente (veremos inconveniente de modificar, 
      compilar, etc).
    - Explicamos cin y mejoramos el sumador.
-* Pide el lado de un cuadrado y devuelve área y el perímetro (cuadrado.cpp)
+   - Podemos hacer un programa que pida dos números y haga todas las operaciones: +, -, *, /, %.
+* DONE Pide el lado de un cuadrado y devuelve área y el perímetro (cuadrado.cpp)
   Aquí pedirán el lado del cuadrado y muestran el área y el perímetro.
 ** Qué aprendemos
    Nada nuevo con respecto al programa anterior. Solo afianzar los conceptos.
 ** Qué explicamos
    Nada nuevo.
-* Pide segundos y devuelve horas, minutos y segundos (reloj.cpp)
+* DONE Pide segundos y devuelve horas, minutos y segundos (reloj.cpp)
   Un programa que pida un número de segundos y devuelva las horas, los minutos 
   y los segundos.
   h = segundos / 3600;
@@ -50,5 +55,9 @@
 ** Qué aprendemos
    - A utilizar el operador %.
 ** Qué explicamos
-
+* TODO Estructuras de control: condicional
+  El objetivo aquí será hacer una calculadora que sume, reste, multiplique o
+  divida dos números. Para ello se proponen los siguientes programas para
+  acercarnos a nuestro objetivo.
+** TODO Pide dos números y di si son distintos
 
