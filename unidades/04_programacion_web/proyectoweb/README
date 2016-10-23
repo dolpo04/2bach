@@ -1,0 +1,8 @@
+Este proyecto, wayw (Write All You Want), nace como una práctica para el curso
+TIC II de 2º Bachillerato.
+
+Se trata de un microblogging en el que los usuarios registrados escriben todo
+aquello que deseen indicando quién puede leer los mensajes: todos los usuarios
+o solo los usuarios registrados. Si visitas el microblogging sin iniciar sesión
+podrás ver, por tanto, aquellos mensajes que haya sido marcados como visibles
+para todo el mundo.

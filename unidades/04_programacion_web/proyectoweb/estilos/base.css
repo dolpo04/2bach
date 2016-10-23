@@ -1,0 +1,244 @@
+/* De esta manera se cuentan los padding y los border como parte del ancho. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color: #f5f8fa;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="text"].focus,
+input[type="password"]:focus,
+input[type="password"].focus,
+textarea:focus,
+textarea.focus {
+  border: solid 5px #d54d7b;
+}
+
+input[type="button"],
+input[type="submit"] {
+  background-color: #d54d7b;
+  border: solid 5px #d54d7b;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="button"].hover,
+input[type="submit"].hover {
+  background-color: white;
+  border: solid 5px #d54d7b;
+  color: #d54d7b;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"].peque {
+    padding: 4px 8px;
+}
+
+.error {
+  background-color: #f2dede;
+  color: #a94442;
+  border: 2px solid #ebccd1;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+}
+.ok {
+  background-color: #dff0d8;
+  color: #3c763d;
+  border: 2px solid #d6e9c6;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.texto-peque {
+  font-size: 0.65em;
+}
+
+.margen-arriba {
+  margin-top: 15px;
+}
+.margen-abajo {
+  margin-bottom: 15px;
+}
+.margen-izquierda {
+  margin-left: 15px;
+}
+.margen-derecha {
+  margin-right: 15px;
+}
+
+.alinear-derecha {
+  text-align: right;
+}
+.alinear-izquierda {
+  text-align: left;
+}
+.alinear-centro {
+  text-align: center;
+}
+.alinear-justificado {
+  text-align: justify;
+}
+
+.menu {
+  height: 50px;
+  background-color: #0084b4;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+/* Para ordenador */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+.col-offset-12 {margin-left: 100%;}
+
+[class*="col-"] {
+    float: left;
+}
+
+/* Para smartphone */
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+h1.titulo {
+    color: #d54d7b;
+  font-family: "Great Vibes", cursive;
+  font-size: 60px;
+  line-height: 50px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: left;
+  text-shadow: 0 2px 2px #fff;
+}
+
+h1.titulo > a {
+    color: #d54d7b;
+    text-decoration: none;
+}
+h1.titulo > a:visited {
+    color: #d54d7b;
+    text-decoration: none;
+}
+
+a.login {
+  color: white;
+  line-height: 50px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a.peque {
+  font-weight: normal;
+  font-size: 0.75em;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  background-color: #d54d7b;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.usuario {
+  background-color: white;
+  border: 3px solid #d54d7b;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.post {
+  border: 1px solid #d54d7b;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 0px;
+  margin-top: 10px;
+}
+.post:hover {
+  background-color: #f5f8fa;
+}
+.texto-post {
+  color: #555555;
+  font-size: 1.25em;
+  padding: 15px;
+}
+.fin-post {
+  padding-top: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  font-size: 0.75em;
+  text-align: center;
+}
+.izquierda {
+  margin-left: 10px;
+  text-align: left;
+}
+.derecha {
+  margin-right: 10px;
+  text-align: right;
+}

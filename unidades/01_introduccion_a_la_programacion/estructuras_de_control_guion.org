@@ -1,0 +1,47 @@
+* Condicional
+** if
+   Explicamos el funcionamiento del if solo, sin else, con un DFD de ejemplo
+   que resuelve el problema de decidir si un número es positivo.
+** if-else
+   En el ejemplo de arriba nos daremos cuenta que necesitamos completarlo para
+   indicar cuándo es negativo el número. Introducimos el else dibujando el DFD.
+** if-else if
+   ¿Qué pasa con el 0? Completamos nuestro DFD y el programa.
+** Programamos
+   Programa que indique si un número es par.
+** Kahoot
+   Hacemos un kahoot con preguntas sobre if-else y lo estudiado hasta ahora.
+** Programamos: el mayor de dos números
+   Programa que pida dos números y nos diga qué número es mayor. Si son iguales
+   deberá indicarlo también.
+** Condiciones compuestas
+   Hacemos dos programas:
+   - Vamosa introducirnos con las condiciones compuestas escribiendo un programa
+   que nos diga si una nota es un notable: nota >= 7 && nota < 9.
+   - Programa que dado un número nos diga si es insuficiente, suficiente, 
+   aprobado, bien, notable o sobresaliente.
+   - Vamos a resolver el problema de decidir si una letra es mayúscula,
+   minúscula o no es una letra sinó un número o símbolo.
+   Tenemos que usar las condiciones:
+      - letra > 'a' && letra < 'z'
+      - letra > 'A' && letra < 'Z'
+** Programamos: números aleatorios
+   Vamos a hacer un programa que genere números aleatorios. Para ello, lo 
+   dividimos en varias partes:
+   - Primero un programa muy "tonto" que mostrará dos números aleatorios.
+   - Luego lo modificamos para que pida al usuario un número y que genere un
+     número aleatorio entre 0 y ese número.
+   - Programa que pida nombre, limpie pantalla, salude y plantee una suma de 
+     dos números aleatorios.
+** Programamos: menú con opciones
+   Hacemos un programa que muestre un menú de opciones y nos diga la opción que
+   el usuario ha elegido, de manera que preparemos esa parte de la práctica que
+   viene a continuación. Además, una vez elegida la opción se mostrará si esa
+   opción es par o impar para tener un if dentro de otro if.
+** Práctica 04
+   Hacemos la práctica que está en la carpeta 04 dentro de la carpeta practica.
+   Se trata de generar dos números aleatorios y plantear al usuario una suma,
+   una resta, una multiplicación o una división, en función de lo que el usuario
+   elija de un menú.
+** Práctica 05
+   ESTÁ POR HACER...
