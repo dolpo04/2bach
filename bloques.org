@@ -1,7 +1,7 @@
 * Unidad 0. Introducción.
   - Jerarquías de directorios.
   - Editar archivos de texto.
-  - Terminal: mkdir, cd, pwd, ls, cal, date, top.
+  - Terminal: mkdir, cd, pwd, ls, cal, date, top y otros comandos básicos.
 * Bloque 1. Programación.
 ** Unidad 1. Introducción a la programación.
 ** Unidad 2. Programación orientada a objectos.
