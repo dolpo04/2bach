@@ -1,0 +1,30 @@
+* Presentación: introducción a las bbdd
+** Primera parte: introducción a la problemática
+  En la misma presentación se tienen notas donde se explica qué debo explicar
+  en cada una de ellas.
+  Lo que vamos aprendiendo en esta presentación:
+  - Bases de datos :: qué son y qué abreviatura se usa.
+  - Gestión de las BBDD :: necesidad de las mismas y gestión tradicional.
+  - Problemas de la gestión tradicional :: se muestran algunos problemas al
+       tiempo que se introducen algunos conceptos técnicos antes de entrar de
+       lleno en ello:
+    - Tabla :: conjunto más o menos ordenado de datos.
+    - Campo :: cada uno de los atributos de un registro.
+    - Registro :: cada una de las filas (entradas) de una tabla.
+    - Clave primaria (PK) :: campo o atributo que sirve para identificar cada
+	 uno de los registros.
+** Kahoot!
+   En la presentación se tiene una diapositiva donde pone "Kahoot!" que anuncia
+   que vamos a hacer un Kahoot! para comprobar que los "pocos" conceptos vistos
+   hasta ahora han quedado bien asentados.
+* Presentación: bases de datos relacionales
+** Primera parte: Modelo Relacional y Modelo ER
+  En esta presentación introducimos el Modelo Relacional, que es el modelo 
+  utilizado en las BBDD Relacionales.
+  Tras introducir el Modelo Relacional pasamos a hablar del lenguaje de 
+  diagrama para el diseño de las bases de datos.
+** Segunda parte: ejercicios de diseño con Modelo ER
+   Vamos a diseñar pequeñas bases de datos usando para ello el Modelo ER. Se 
+   tiene un documento con los enunciados que hay que imprimir para dárselo al
+   alumnado y que puedan hacerlo ahí durante las clases. Este documento está
+   dentro de la carpeta ejercicios.

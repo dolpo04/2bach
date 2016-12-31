@@ -43,5 +43,45 @@
    Se trata de generar dos números aleatorios y plantear al usuario una suma,
    una resta, una multiplicación o una división, en función de lo que el usuario
    elija de un menú.
+** while
+   - Hacemos programa que pida un número mayor que cien y se asegure que así 
+     sea.
+   - Hacemos programa que pida un número entre 0 y 10 (una nota) y se asegure
+     que el número sea correcto. En el while se necesita un ||.
+   - Programa que muestre los 100 primeros números con un while.
+   - Programa que muestre los primeros 100 números negativos.
+   - Programa que muestre una serie de números y a cada paso por el bucle se 
+     pregunte si se desea continuar.
+   - Programa que genere dos números aleatorios entre 0 y 10 y plantee una
+     multiplicación. Esto lo hará mientras el resultado que el usuario de sea
+     correcto. Que se haga por pasos: primero hacer lo de los números aleatorios
+     y luego meterlo en un bucle. Además, se puede incorporar una puntuación 
+     para mostrar el número de multiplicaciones que el usuario ha hecho sin 
+     equivocarse.
+   - Avanzado :: Serie de Fibonacci con un while. Se dentendrá cuando llegue a
+     un número dado.. 
+** do-while
+   - Les explico cómo se podría haber hecho el programa que plantea productos al
+     usuario con números aleatorios hasta que se equivoca, ya que es un poblema
+     en el que el bucle se repite de 1 a n veces y no de 0 a n como en los bucles
+     while.
 ** Práctica 05
-   ESTÁ POR HACER...
+   Les paso el fuente del programa del do-while para que hagan mejoras sobre él:
+   - Llevar los puntos (el número de multiplicaciones seguidas).
+   - Incrementar la dificultad de los productos aumetando el máximo al generar
+     números aleatorios.
+   - Introducir colores (para ello, hacemos un programa que muestre mensajes a 
+     color, luego los introducimos aquí). Esto me servirá para introducir la
+     directiva del preprocesador #define.
+** for y arrays (y funciones)
+   - Hacemos programa que muestre los 10 primeros números.
+   - Modificar programa para que muestre los 1000 primeros números.
+   - Hacemos programa con array de 10 enteros y pedimos 10 números en un for.
+   - Completamos programa anterior para calcular la media de esos 10 números.
+   - Buscamos una nota dentro del array de notas.
+   - Función que devuelva el número de notas aprobadas.
+   - Generalizamos la función anterior para que devuelva el número de números
+     que hay entre un rango dado.
+** Práctica 06
+** Práctica 07
+   Juego parecido al buscaminas.
