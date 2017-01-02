@@ -34,3 +34,20 @@
    Durante el aprendizaje haremos ejercicios que consisten en pasar nuestros
    modelos ER anteriores a modelo relacional. Está en la carpeta ejercicios,
    dentro de la carpeta 02.
+** Cuarta parte: Kahoot!
+   Hacemos un Kahoot! sobre todo para repasar conceptos y que vayan quedando
+   más o menos claros.
+* Instalar MariaDB
+  Instalamos MariaDB y aprendemos a entrar al intérprete de mariadb (mysql).
+* SQL
+** Crear tablas
+   Empezamos por aprender a crear tablas dentro del intérprete de mysql.
+** Escribir scripts con los create table
+   Ahora vamos a escribir los create table en un fichero acabado en .sql y lo
+   cargamos en mysql.
+** Select
+   Les paso un fichero .sql que cargarán y aprendemos con él a hacer select.
+** Insert, update, delete
+   Insertamos, actualizamos y borramos registros en la base de datos.
+* Mysqladmin
+  Instalamos mysqladmin y hacemos todo lo aprendido en la UI web.
