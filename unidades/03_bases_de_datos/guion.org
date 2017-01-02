@@ -28,3 +28,9 @@
    tiene un documento con los enunciados que hay que imprimir para dárselo al
    alumnado y que puedan hacerlo ahí durante las clases. Este documento está
    dentro de la carpeta ejercicios.
+** Tercera parte: continuamos con la presentación
+   Ahora pasamos al diseño lógico. Aprendemos a construir el modelo relacional
+   a partir del diseño conceptual, modelo ER.
+   Durante el aprendizaje haremos ejercicios que consisten en pasar nuestros
+   modelos ER anteriores a modelo relacional. Está en la carpeta ejercicios,
+   dentro de la carpeta 02.
