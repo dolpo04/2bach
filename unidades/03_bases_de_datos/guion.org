@@ -62,6 +62,10 @@
 ** Parte 3: ejercicio guiado con select
    Podemos usar la BD de la parte 2 (práctica) para practicar con los select.
 ** Parte 4: práctica 2: select BD hoteles
-   TENGO QUE HACER LA BD DE HOTELES.
+   En esta práctica solo tienen que responder a una serie de cuestiones sobre
+   la información que hay en la BD. Para ello tienen que controlar las 
+   consultas con SQL (select).
+   A la respuesta tienen que adjuntar la sentencia select que han usado para
+   llegar a esa respuesta.
 * Mysqladmin
   Instalamos mysqladmin y hacemos todo lo aprendido en la UI web.
