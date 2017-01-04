@@ -40,14 +40,28 @@
 * Instalar MariaDB
   Instalamos MariaDB y aprendemos a entrar al intérprete de mariadb (mysql).
 * SQL
-** Crear tablas
-   Empezamos por aprender a crear tablas dentro del intérprete de mysql.
-** Escribir scripts con los create table
-   Ahora vamos a escribir los create table en un fichero acabado en .sql y lo
-   cargamos en mysql.
-** Select
-   Les paso un fichero .sql que cargarán y aprendemos con él a hacer select.
-** Insert, update, delete
-   Insertamos, actualizamos y borramos registros en la base de datos.
+** Parte 1: ejercicio guiado con BD alumnos_bd
+   En esta parte vamos a aprender (a través de un ejercicio guiado) a:
+   - Entrar al intérprete de mysql con el usaurio root.
+   - Crear una base de datos llamada alumnos_bd.
+   - Crear un usuario y dar todos los privilegios sobre la BD recién creada.
+   - Salir del intérprete.
+   - Volver a entrar al intérprete con el usuario recién creado.
+   - Entrar a la BD que creamos.
+   - Crear la tabla país y luego la tabla alumno.
+   - Insertar registros en la tabla país.
+   - Insertar registros en la tabla alumno.
+   - Hacer algunos select.
+** Parte 2: práctica 1: sobre la BD anterior
+   Antes de comenzar con la práctica borramos todos los registros 
+   introducidos: delete pais primero y delete alumno después.
+   Esta práctica la pueden hacer entre dos alumnos. Les enseñaré a conectarse
+   remotamente a una BD. Es interesante porque hay que hacer muchos insert y 
+   pueden dividirse los insert (uno hace 10 y otro otros 10).
+   Mejor si les paso el enunciado impreso.
+** Parte 3: ejercicio guiado con select
+   Podemos usar la BD de la parte 2 (práctica) para practicar con los select.
+** Parte 4: práctica 2: select BD hoteles
+   TENGO QUE HACER LA BD DE HOTELES.
 * Mysqladmin
   Instalamos mysqladmin y hacemos todo lo aprendido en la UI web.
