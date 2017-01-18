@@ -31,18 +31,22 @@
 ** Tercera parte: continuamos con la presentación
    Ahora pasamos al diseño lógico. Aprendemos a construir el modelo relacional
    a partir del diseño conceptual, modelo ER.
+** Cuarta parte: ejercicios de diseño con Modelo Relacional
    Durante el aprendizaje haremos ejercicios que consisten en pasar nuestros
    modelos ER anteriores a modelo relacional. Está en la carpeta ejercicios,
    dentro de la carpeta 02.
-** Cuarta parte: Kahoot!
+** Quinta parte: Kahoot!
    Hacemos un Kahoot! sobre todo para repasar conceptos y que vayan quedando
    más o menos claros.
+** Ejercicio final: diseño completo de una BD
+   Por último, hacemos por parejas el ejercicio final que está en la carpeta
+   ejercicios.
 * Instalar MariaDB
   Instalamos MariaDB y aprendemos a entrar al intérprete de mariadb (mysql).
 * SQL
 ** Parte 1: ejercicio guiado con BD alumnos_bd
    En esta parte vamos a aprender (a través de un ejercicio guiado) a:
-   - Entrar al intérprete de mysql con el usaurio root.
+   - Entrar al intérprete de mysql con el usuario root.
    - Crear una base de datos llamada alumnos_bd.
    - Crear un usuario y dar todos los privilegios sobre la BD recién creada.
    - Salir del intérprete.
@@ -66,6 +70,7 @@
    la información que hay en la BD. Para ello tienen que controlar las 
    consultas con SQL (select).
    A la respuesta tienen que adjuntar la sentencia select que han usado para
-   llegar a esa respuesta.
+   llegar a esa respuesta (en algunas preguntas). Tienen que completar pues el
+   odt (no les tengo que pasar el pdf, sino el odt).
 * Mysqladmin
   Instalamos mysqladmin y hacemos todo lo aprendido en la UI web.
