@@ -30,7 +30,8 @@ create table habitacion (
        camas integer,
        personas integer,
        libre integer,
-       hotel integer references hotel(id)
+       hotel integer,
+       foreign key (hotel) references hotel(id)
 ) engine=innodb, charset=utf8;
 
 insert into habitacion (id, num, camas, personas, libre, hotel) values
